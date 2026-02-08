@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Award, BookOpen, Rocket } from 'lucide-react';
+import { Award, BookOpen, Rocket, Cpu } from 'lucide-react';
 
 const About = () => {
     return (

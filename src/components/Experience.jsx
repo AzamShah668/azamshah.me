@@ -34,7 +34,7 @@ const Experience = () => {
         <section id="experience" className="py-24 bg-[#0a0a0a]">
             <div className="max-w-4xl mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold mb-4">Journey & <span className="text-pink-500">Growth</span></h2>
+                    <h2 className="text-4xl font-bold mb-4 font-heading">Journey & <span className="text-pink-500">Growth</span></h2>
                     <p className="text-gray-400">My academic path and professional explorations in the world of technology.</p>
                 </div>
 

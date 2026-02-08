@@ -34,7 +34,7 @@ const Skills = () => {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        className="text-4xl font-bold mb-4"
+                        className="text-4xl font-bold mb-4 font-heading"
                     >
                         Technical <span className="text-purple-500">Arsenal</span>
                     </motion.h2>

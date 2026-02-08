@@ -9,7 +9,7 @@ const Contact = () => {
                 <div className="bg-white/5 border border-white/10 rounded-[3rem] p-12 md:p-20 relative overflow-hidden backdrop-blur-xl">
                     <div className="relative z-10 grid md:grid-cols-2 gap-16 items-center">
                         <div>
-                            <h2 className="text-5xl md:text-6xl font-black mb-8 leading-tight">
+                            <h2 className="text-5xl md:text-6xl font-black mb-8 leading-tight font-heading">
                                 Let's <span className="text-purple-500">Collaborate</span> on Your Next Deployment.
                             </h2>
                             <p className="text-gray-400 text-lg mb-12">

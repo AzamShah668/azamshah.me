@@ -13,7 +13,7 @@ const About = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 0.8 }}
                     >
-                        <h2 className="text-4xl font-bold mb-8">
+                        <h2 className="text-4xl font-bold mb-8 font-heading">
                             Systematic <span className="text-purple-500">Excellence</span> <br />
                             Driven by Passion
                         </h2>

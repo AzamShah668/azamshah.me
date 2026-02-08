@@ -26,7 +26,7 @@ const Projects = () => {
             <div className="max-w-7xl mx-auto px-6">
                 <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-4">
                     <div>
-                        <h2 className="text-4xl font-bold mb-4">Featured <span className="text-blue-500">Deployments</span></h2>
+                        <h2 className="text-4xl font-bold mb-4 font-heading">Featured <span className="text-blue-500">Deployments</span></h2>
                         <p className="text-gray-400 max-w-xl">
                             A collection of my work fetched directly from GitHub, showcasing DevOps patterns, three-tier applications, and AI integrations.
                         </p>

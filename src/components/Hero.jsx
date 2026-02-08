@@ -27,8 +27,8 @@ const Hero = () => {
                         Available for Projects
                     </motion.div>
 
-                    <h2 className="text-gray-400 font-mono mb-4 text-lg">System Architect & DevOps Lead</h2>
-                    <h1 className="text-7xl md:text-9xl font-black mb-8 tracking-tighter">
+                    <h2 className="text-gray-400 font-sans mb-4 text-lg">System Architect & DevOps Lead</h2>
+                    <h1 className="text-7xl md:text-9xl font-black mb-8 tracking-tighter font-heading">
                         Azam <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-pink-500 bg-clip-text text-transparent">Shah</span>
                     </h1>
                     <p className="text-xl md:text-2xl text-gray-500 mb-12 max-w-2xl mx-auto leading-relaxed font-medium">

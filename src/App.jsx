@@ -26,15 +26,7 @@ const App = () => {
         <div className="min-h-screen bg-[#0a0a0a] text-white selection:bg-purple-500/30 selection:text-purple-200 font-sans">
             {/* Navigation */}
             <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-[#0a0a0a]/80 backdrop-blur-md border-b border-white/10 py-4' : 'bg-transparent py-6'}`}>
-                <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-                    <motion.div
-                        initial={{ opacity: 0, x: -20 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        className="text-2xl font-black bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent hover:scale-105 transition-transform cursor-pointer"
-                    >
-                        AZAM.
-                    </motion.div>
-
+                <div className="max-w-7xl mx-auto px-6 flex justify-end items-center">
                     <div className="hidden md:flex gap-8 items-center">
                         {['About', 'Skills', 'Projects', 'Experience', 'Contact'].map((item) => (
                             <a key={item} href={`#${item.toLowerCase()}`} className="text-sm font-bold text-gray-400 hover:text-white transition-colors tracking-widest uppercase">

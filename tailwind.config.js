@@ -12,8 +12,8 @@ export default {
                 secondary: "#3b82f6",
             },
             fontFamily: {
-                sans: ['Inter', 'sans-serif'],
-                mono: ['Fira Code', 'monospace'],
+                sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                heading: ['Outfit', 'sans-serif'],
             },
             animation: {
                 'pulse-slow': 'pulse 6s cubic-bezier(0.4, 0, 0.6, 1) infinite',
